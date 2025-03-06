@@ -10,3 +10,4 @@ wp-content/upgrade/
 *.log
 .DS_Store
 Thumbs.db
+wp-content/object-cache.php
