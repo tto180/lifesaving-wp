@@ -11,3 +11,4 @@ wp-content/upgrade/
 .DS_Store
 Thumbs.db
 wp-content/object-cache.php
+wp-content/object-cache.php
