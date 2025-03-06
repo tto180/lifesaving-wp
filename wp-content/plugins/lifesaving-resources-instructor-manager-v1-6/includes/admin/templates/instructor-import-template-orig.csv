@@ -1,0 +1,5 @@
+First Name,Last Name,Email,Phone,Department/Agency,State,Certification Type,Original Auth Date,ReAuth Date 1,ReAuth Date 2,ReAuth Date 3,ReAuth Date 4,Course Date,Course Location,Course Type,Assistant First Name,Assistant Last Name,Assistant Email,Awareness Count,Operations Count,Technician Count,Surf/Swiftwater Count
+John,Smith,john@example.com,555-123-4567,Fire Department,MA,Water,1/15/2024,1/15/2024,,,,,,,,,,,,,
+John,Smith,john@example.com,555-123-4567,Fire Department,MA,Ice,1/15/2024,1/15/2024,,,,,,,,,,,,,
+,,,,,,,,,,,,3/15/2024,Boston,Water,Jane,Doe,jane@example.com,5,3,2,1
+,,,,,,,,,,,,2/15/2024,Chicago,Ice,Mike,Johnson,mike@example.com,4,2,1,0
