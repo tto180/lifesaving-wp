@@ -1,0 +1,288 @@
+/* Main Container Styles */
+.email-form-container {
+    max-width: 1200px;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Styles */
+.form-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-section:last-child {
+    border-bottom: none;
+}
+
+.form-section h2 {
+    font-size: 1.3em;
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+}
+
+/* Recipients Section */
+.recipient-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.recipient-options label {
+    display: block;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.recipient-options label:hover {
+    background: #f0f0f1;
+}
+
+.recipient-count {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-left: 4px solid #2271b1;
+    color: #1e1e1e;
+}
+
+/* CC Field */
+.cc-field {
+    margin-top: 15px;
+}
+
+.cc-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.cc-field input {
+    width: 100%;
+}
+
+/* Email Content Section */
+.email-content {
+    margin-top: 15px;
+}
+
+.email-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.merge-tags {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.merge-tags p {
+    margin: 0 0 8px 0;
+    font-weight: 500;
+}
+
+.merge-tags code {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.merge-tags code:hover {
+    background: #f0f0f1;
+}
+
+/* Attachment Area */
+.attachment-area {
+    margin-top: 15px;
+}
+
+#attachment-list {
+    margin-top: 15px;
+    min-height: 50px;
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#attachment-list.drag-over {
+    border-color: #2271b1;
+    background: #f0f7fc;
+}
+
+.attachment-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.attachment-item .filename {
+    flex-grow: 1;
+}
+
+.attachment-item .remove {
+    color: #dc3232;
+    cursor: pointer;
+}
+
+.attachment-item .filesize {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Form Actions */
+.form-actions {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* Preview Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+}
+
+.close:hover {
+    color: #000;
+}
+
+/* Loading States */
+.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 -15px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #2271b1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Messages */
+.error-message,
+.success-message {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-left: 4px solid;
+}
+
+.error-message {
+    background: #fbeaea;
+    border-color: #dc3232;
+}
+
+.success-message {
+    background: #f0f6e9;
+    border-color: #46b450;
+}
+
+/* Preview Content */
+.preview-email {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.preview-subject {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.preview-body {
+    margin-bottom: 20px;
+}
+
+.preview-attachments {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .recipient-options {
+        grid-template-columns: 1fr;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .form-actions button {
+        width: 100%;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+}

@@ -1,0 +1,12 @@
+# Ignore WordPress core files (managed by WP Engine)
+wp-admin/
+wp-includes/
+wp-config.php
+
+# Ignore cache, uploads, and logs
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+*.log
+.DS_Store
+Thumbs.db

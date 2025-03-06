@@ -1,0 +1,3 @@
+First Name,Last Name,Department/Agency,Phone,Email,State,Certification Type,Original Auth Date,Training Location,ReAuth Date 1,ReAuth Date 2,ReAuth Date 3,ReAuth Date 4,Course Date 1,Course Location 1,Assistant Name 1,Assistant Email 1,Awareness Count 1,Operations Count 1,Technician Count 1,Surf/Swiftwater Count 1
+John,Doe,Metro Fire Department,555-123-4567,john.doe@example.com,NY,Ice,43845,Lake Placid,44211,44576,44941,,45092,Crystal Lake,Jane Smith,jane.smith@example.com,8,5,3,0
+Jane,Smith,County Sheriff,555-987-6543,jane.smith@example.com,NY,Water,43617,Hudson River,43983,44348,44713,45078,45108,Hudson River,John Doe,john.doe@example.com,6,4,2,3

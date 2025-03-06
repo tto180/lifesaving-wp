@@ -1,0 +1,36 @@
+# Browsersync config
+BROWSERSYNC:
+  # URL of local development server goes here (ex. http://localsite.dev)
+  url: "https://docker.test"
+  
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie >= 9"
+  - "ios >= 7"
+
+# Gulp will reference these paths when it copies files
+PATHS:
+  # Path to dist folder
+  dist: "dist/assets"
+  # Paths to static assets that aren't images, CSS, or JavaScript
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+  # Paths to Sass libraries, which can then be loaded with @import
+  sass:
+    - "node_modules/foundation-sites/scss"
+    - "node_modules/motion-ui/src"
+    - "node_modules/select2/dist/css"
+    - "node_modules/select2-foundation_theme/src/sass"
+  # Paths to SCSS and JavaScript entry points
+  entries:
+    scss: 
+      - "src/assets/scss/admin/form.scss"
+      - "src/assets/scss/admin/licensing.scss"
+    js: 
+      - "src/assets/js/admin/form.js"
+      - "src/assets/js/admin/licensing.js"
+
+# Set to true if you want static asset revisioning, helpful for cache busting
+REVISIONING: false

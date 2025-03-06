@@ -1,0 +1,415 @@
+/*
+Theme Name: Lifesaving Resources/Child
+Theme URI: 
+Description: A custom child theme of Bridge Theme for Lifesaving Resources
+Author: MSJ Marketing & Communications
+Author URI: https://msjmarketing.com/
+Version: 1.1.1
+Template: bridge
+*/
+/*@import url("../bridge/style.css");*/
+
+/*-----below copied from previous version msj ----*/
+/*--checkout page--*/
+a.shipping-calculator-button {
+    font-size: 1.1em;
+}
+
+/*--custom labels for check out page 062024---*/
+.page-id-5294 .required {
+  display: none;
+}
+
+/*--full width for tax exempt checkbox--*/
+p#shipping_method_tax_exempt_field {
+    width: 80%;
+}
+
+/*--shop adjustments--*/
+.shop-button-custom.wpb_column.vc_column_container.vc_col-sm-12 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.qode_product_list_holder .product_category {
+    display: none !important;
+}
+
+/*.separator.small, .wpb_column>.wpb_wrapper .separator.small {
+    margin-top: 0px;
+    margin-bottom: 20px;
+   }*/
+
+/*- hides sku and categorty on single product page --*/
+.product_meta {
+    visibility: hidden;
+}
+
+/*- hides default woo images on main store page --*/
+ul.products {
+    display: none;
+}
+
+/*- hides category on bridge pinterest product page --*/
+.qode_product_category {
+    display: none;
+}
+
+/*- change button color on checkout page --*/
+a.button.wc-backward {
+    color: #fae623 !important;
+}
+
+/*-- Woo product pages --*/
+/*-adjusting course/h2 and p headers for product descriptions -*/
+.woocommerce-product-details__short-description h2 {
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+.woocommerce-product-details__short-description p {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 769px) {
+.woocommerce .summary {
+    width: 70%;
+}
+}
+
+@media only screen and (min-width: 769px) {
+.woocommerce .product .images {
+    width: 25%;
+}
+}
+
+/* hide form on woo commerce page on mobile */
+@media only screen and (max-width: 769px) {
+.woo_page_form {
+    display: none;
+}
+}
+
+
+.woo-video{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.woo-video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*-- Formats Tax Exempt area --*/
+.woocommerce-additional-fields {
+    padding: 5px 15px;
+    border: 1px solid black;
+    margin: 20px 0 20px 0;
+}
+
+/*- add color corrects to country and state in check out page --*/
+#select2-billing_country-container, #select2-billing_state-container {
+    background-color: #efefef;
+    border: 1px solid #686868;
+    font-family: Raleway,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #818181;
+}
+
+/*- lat column to fit on smaller screens */
+figure.woocommerce-product-gallery__wrapper {
+    max-width: 100%;
+}
+
+/*--HOME PAGE ARTICLES--*/
+li:nth-child(1) > div > div.latest_post_two_info, li:nth-child(2) > div > div.latest_post_two_info, li:nth-child(3) > div > div.latest_post_two_info {
+    display: none;
+}
+
+.latest_post_two_text {
+    min-height: 404px;
+}
+
+.read-more-home {
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+/*--BLOG INDIVIDUAL AND GRID--*/
+.icon_social_holder > .qode_print {
+    display: none;
+}
+
+form#searchform {
+    border: solid 1px black;
+}
+
+.blog_holder.masonry .post_info {
+    display: none;
+}
+
+/* hide date on single post */
+.single-post article .date.entry_date.updated {
+    display: none !important;
+}
+
+/* single blog post remove time and add posted - removed added to template
+.blog_holder article .post_info .time {
+    display: none;
+}
+.blog_holder article .post_info:before {
+    content: "Posted";
+}*/
+
+/*--FORMS--*/
+body #gform_wrapper_3 .gform_body .gform_fields .gfield input[type=text] {
+    border: solid 1px black;
+}
+
+body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=text] {
+    border: solid 1px black;
+}
+
+body #gform_wrapper_1 .gform_body .gform_fields .gfield input[type=text] {
+    border: solid 1px black;
+}
+
+/* border around captcha on contact page */
+.page-id-6806 #input_5_9 {
+    border: none;
+}
+
+/*-adding border to country input -*/
+select#input_3_6_6 {
+    border: 1px black solid;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+/*-adding border to certification input -*/
+.gfield_list_cell.gfield_list_24_cell3 > select {
+    border: 1px black solid;
+    padding: 4px;
+}
+
+/*-adding to page forms --*/
+.page-contact .ginput_container, .textarea#input_4_5 {
+    border: 1px black solid;
+}
+
+/*-adding margin to top of woocommerce page form --*/
+.woo_page_form {
+    margin-top: 50px;
+    background-color: #fafafa;
+    padding: 15px;
+}
+
+.page-contact #input_5_5 {
+    border: none;
+}
+
+/*- gerry page hide read more under cv -*/
+.q_icon_with_title.medium.normal_icon.center > div.icon_text_holder > div > a {
+    display: none;
+}
+
+/*- initially to border pics on about us, now used elsewhere too -*/
+.about-image .vc_single_image-wrapper.vc_box_border_grey {
+    border: 1px solid black;
+}
+
+/*- breadcrumbs -*/
+.lifesaving-breadcrumb a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.lifesaving-breadcrumb a:hover {
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+p.lifesaving-breadcrumb {
+    margin-top: -30px;
+	margin-bottom: 25px !important;
+}
+
+/* SITE WIDE */
+ol, ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* youtube thumbnail */
+.youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+        /* Use 75% for 4:3 videos */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: .4s all;
+        -moz-transition: .4s all;
+        transition: .4s all;
+    }
+    
+    .youtube-player img:hover {
+        -webkit-filter: brightness(75%);
+    }
+    
+    .youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        /*background: url("//i.imgur.com/TxzC70f.png") no-repeat;*/
+		background: url("https://lifesaving.com/wp-content/uploads/2019/11/youtube-play-icon1.png") no-repeat;
+        cursor: pointer;
+    }
+
+.last-updated {
+    font-size: small;
+    text-transform: uppercase;
+    background-color: #fffdd4;
+	margin-top: 0;
+} 
+
+/*removed underline on footer social media links*/
+.qode_icon_shortcode.q_font_awsome_icon.fa-lg a {
+    text-decoration: none;
+}
+
+/* partner page adjustments */
+.partner-info .wpb_wrapper p {
+    line-height: 20px;
+}
+
+
+/* lifesaving branding for article sidebar */
+.widget.qode_icon_with_text_widget {
+    border: 1px solid #353535;
+    border-radius: 10px;
+    padding: 25px 10px 0 10px;
+    background: #f9f9f9;
+    margin-top: 10px;
+}
+
+#mc4wp_form_widget-2 {
+    border: 1px solid #353535;
+    border-radius: 10px;
+    padding: 20px 20px 9px 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* attorney form */
+input#input_7_24, input#input_7_23, input#input_7_28, input#input_7_29, input#input_7_25, input#input_7_32,
+input#input_7_27_1, input#input_7_27_2, input#input_7_27_3, select#input_7_27_4, input#input_7_27_5, input#input_7_33_5 {
+    border: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.ginput_container {
+    margin-top: 0 !important;
+}
+
+/* adjust select box for state */
+#input_7_27_4 {
+    height: 37px;
+	padding: 0;
+}
+
+/* stripe check out*/
+#wc-stripe-card-element {
+    border: 1px solid #ccc;
+}
+
+/* online courses form */
+input#input_8_2, input#input_8_3 {
+    border: 1px solid #ccc;
+    margin-top: 0;
+}
+
+/* online course description next course box*/
+.page-id-7833 .icon_text_inner {
+    padding: 0 !important;
+}
+
+/* add border to form on instructor profile page*/
+.page-id-8121 .gform_wrapper .chzn-choices, body .gform_wrapper .chzn-container .chzn-drop, body .gform_wrapper .chzn-container .chzn-single, body .gform_wrapper .chzn-container-multi .chzn-choices, body .gform_wrapper .chzn-container-single .chzn-single, body .gform_wrapper .chzn-container-single .chzn-single b, body .gform_wrapper .chzn-container-single .chzn-single div, body .gform_wrapper .gf_progressbar, body .gform_wrapper input[type=email], body .gform_wrapper input[type=number], body .gform_wrapper input[type=password], body .gform_wrapper input[type=tel], body .gform_wrapper input[type=text], body .gform_wrapper input[type=url], body .gform_wrapper li.gfield.gfield_error, body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning, body .gform_wrapper select, body .gform_wrapper textarea {
+    border: 1px solid #8f8f8ff2;
+}
+
+/*hide title on woo pages
+.single-product .title_subtitle_holder_inner {
+ display: none;
+ }
+*/
+
+.form-field-width {
+	max-width: 80%;
+}
+
+/* instructor candidate page accordian formatting*/
+#ui-id-3, #ui-id-4, #ui-id-6,
+#ui-id-10, #ui-id-11, #ui-id-13 {
+  background: #e2e2e2;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #000;
+}
+
+#ui-id-1,#ui-id-8  {
+  background: #fff;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #000;
+}
+
+/* course registration page */
+.registration-form-section-header .gsection_title {
+  font-size: 1.5em;
+  font-weight: bold;
+}

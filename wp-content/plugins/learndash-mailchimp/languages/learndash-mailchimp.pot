@@ -1,0 +1,430 @@
+# Copyright (C) 2022 LearnDash_MailChimp
+# This file is distributed under the same license as the LearnDash_MailChimp package.
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnDash_MailChimp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: learndash-mailchimp.php:78
+msgctxt "Missing Plugin Dependency Error"
+msgid "%s requires %s to be installed!"
+msgstr ""
+
+#: learndash-mailchimp.php:94
+msgctxt "Outdated Dependency Error"
+msgid "%s requires v%s of %s or higher to be installed!"
+msgstr ""
+
+#: learndash-mailchimp.php:225
+msgid "Delete Row"
+msgstr ""
+
+#: learndash-mailchimp.php:226
+msgid "Delete Column"
+msgstr ""
+
+#: learndash-mailchimp.php:229
+msgid "No select options."
+msgstr ""
+
+#: learndash-mailchimp.php:230
+msgid "The results could not be loaded"
+msgstr ""
+
+#. translators: %d is number of characters over input limit
+#: learndash-mailchimp.php:232
+msgid "Please delete %d character(s)"
+msgstr ""
+
+#. translators: %d is number of characters under input limit
+#: learndash-mailchimp.php:234
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: learndash-mailchimp.php:235
+msgid "Loading more results..."
+msgstr ""
+
+#. translators: %d is maximum number items selectable
+#: learndash-mailchimp.php:237
+msgid "You can only select %d item(s)"
+msgstr ""
+
+#: learndash-mailchimp.php:238
+msgid "No results found"
+msgstr ""
+
+#: learndash-mailchimp.php:239
+msgid "Searching..."
+msgstr ""
+
+#: learndash-mailchimp.php:242
+msgid "New Row"
+msgstr ""
+
+#: learndash-mailchimp.php:243
+msgid "Are you sure you want to delete this element?"
+msgstr ""
+
+#: learndash-mailchimp.php:244, learndash-mailchimp.php:302
+msgid "Delete"
+msgstr ""
+
+#: learndash-mailchimp.php:245
+msgid "Add"
+msgstr ""
+
+#: learndash-mailchimp.php:248
+msgid "Upload / Choose Media"
+msgstr ""
+
+#: learndash-mailchimp.php:249
+msgid "Remove Media"
+msgstr ""
+
+#: learndash-mailchimp.php:250
+msgid "Choose Media"
+msgstr ""
+
+#: learndash-mailchimp.php:253
+msgid "No options available."
+msgstr ""
+
+#: learndash-mailchimp.php:283, learndash-mailchimp.php:293
+msgctxt "%s is the Plugin Name"
+msgid "Need some help with %s?"
+msgstr ""
+
+#: learndash-mailchimp.php:284
+msgid "Subject"
+msgstr ""
+
+#: learndash-mailchimp.php:285
+msgid "Message"
+msgstr ""
+
+#: learndash-mailchimp.php:286
+msgid "Send"
+msgstr ""
+
+#: learndash-mailchimp.php:287
+msgctxt "Both %s are used to place HTML for the <a> in the message"
+msgid "We make other cool plugins and share updates and special offers to anyone who %ssubscribes here%s."
+msgstr ""
+
+#: learndash-mailchimp.php:288
+msgctxt "Only used by legacy browsers for JavaScript Form Validation"
+msgid "This field is required"
+msgstr ""
+
+#: learndash-mailchimp.php:289
+msgid "Support message succesfully sent!"
+msgstr ""
+
+#: learndash-mailchimp.php:290
+msgid "Could not send support message."
+msgstr ""
+
+#: learndash-mailchimp.php:294
+msgid "Premium support is disabled. Please register your product and activate your license for this website to enable."
+msgstr ""
+
+#: learndash-mailchimp.php:298
+msgctxt "%s is the Plugin Name"
+msgid "%s License"
+msgstr ""
+
+#: learndash-mailchimp.php:299
+msgid "Deactivate"
+msgstr ""
+
+#: learndash-mailchimp.php:300
+msgid "Activate"
+msgstr ""
+
+#: learndash-mailchimp.php:301
+msgid "Delete and Deactivate"
+msgstr ""
+
+#: learndash-mailchimp.php:303
+msgid "License Active"
+msgstr ""
+
+#: learndash-mailchimp.php:304
+msgid "License Inactive"
+msgstr ""
+
+#: learndash-mailchimp.php:305
+msgid "Save and Activate"
+msgstr ""
+
+#: learndash-mailchimp.php:308
+msgctxt "%s is the Plugin Name"
+msgid "Register your copy of %s now to receive automatic updates and support."
+msgstr ""
+
+#: learndash-mailchimp.php:309
+msgctxt "Both %s are used to place HTML for the <a> in the message"
+msgid "If you do not have a license key, you can %1$spurchase one%2$s."
+msgstr ""
+
+#: learndash-mailchimp.php:311
+msgctxt "%s is the Plugin Name"
+msgid "%s license successfully activated."
+msgstr ""
+
+#: learndash-mailchimp.php:312
+msgctxt "%s is the Plugin Name"
+msgid "%s license successfully deleted."
+msgstr ""
+
+#: learndash-mailchimp.php:314
+msgctxt "%s is the Plugin Name"
+msgid "Error: could not deactivate the license for %s"
+msgstr ""
+
+#: learndash-mailchimp.php:315
+msgctxt "%s is the Plugin Name"
+msgid "%s license successfully deactivated."
+msgstr ""
+
+#: learndash-mailchimp.php:318
+msgctxt "The first %s is the Plugin name and the second %s is a localized timestamp"
+msgid "Your %s license key expired on %s."
+msgstr ""
+
+#: learndash-mailchimp.php:319
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: learndash-mailchimp.php:320
+msgid "Invalid license."
+msgstr ""
+
+#: learndash-mailchimp.php:321
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: learndash-mailchimp.php:322
+msgctxt "%s is the Plugin Name"
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: learndash-mailchimp.php:323
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: learndash-mailchimp.php:324
+msgid "You can manage your license key here."
+msgstr ""
+
+#: learndash-mailchimp.php:325
+msgctxt "%s is the Plugin Name followed by the Store URL"
+msgid "%s cannot communicate with %s for License Key Validation. Please check your server configuration settings."
+msgstr ""
+
+#: learndash-mailchimp.php:326
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: learndash-mailchimp.php:329
+msgid "Enable Beta Releases"
+msgstr ""
+
+#: learndash-mailchimp.php:330
+msgid "Beta Releases should not be considered as Stable. Enabling this on your Production Site is done at your own risk."
+msgstr ""
+
+#: learndash-mailchimp.php:331
+msgctxt "%s is the Plugin Name"
+msgid "Beta Releases for %s enabled."
+msgstr ""
+
+#: learndash-mailchimp.php:332
+msgctxt "%s is the Plugin Name"
+msgid "Beta Releases for %s disabled."
+msgstr ""
+
+#: learndash-mailchimp.php:432
+msgid "API Key Invalid"
+msgstr ""
+
+#: core/learndash-mailchimp-settings-api.php:287
+msgctxt "%s is the Field Type"
+msgid "A callback function called \"ld_mailchimp_%s\" does not exist."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-post-edit-course.php:51
+msgid "Mailchimp Course Options"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-post-edit-course.php:76
+msgid "Show Subscription Form"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:115, core/admin/class-learndash-mailchimp-settings.php:116, core/admin/class-learndash-mailchimp-settings.php:581
+msgctxt "Mailchimp Tab Label"
+msgid "Mailchimp"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:150
+msgid "Settings"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:154
+msgid "Licensing"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:256
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:263
+msgid "All Mailchimp API Keys have a hyphen in them"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:265
+msgid "You can find your API Key at %smailchimp.com%s under Account –> Extras –> API Keys while logged in."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:315
+msgid "Mailchimp List"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:321
+msgid "-- Select a List --"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:326
+msgid "Subscription Registration Message"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:331, core/admin/class-learndash-mailchimp-settings.php:344
+msgid "This is only used if Auto-Subscription is turned off."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:334, core/front/class-learndash-mailchimp-add-course.php:70, core/views/subscribe-form.php:19
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:339
+msgid "Subscription Success Message"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:347, core/front/class-learndash-mailchimp-add-course.php:180, core/shortcodes/class-learndash-mailchimp-course-shortcode.php:96
+msgid "Subscribed!"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:356
+msgid "Auto-Subscribe Students"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:361
+msgid "Auto-Subscribes Students to the corresponding List Tag when they are enrolled in a Course. This also enables adding Students to List Tags for Groups."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:381
+msgid "Tag all Students"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:391
+msgid "Delete All Created Course List Tags"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:416
+msgid "Delete All Created Group List Tags"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:452
+msgid "License Registration"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:498
+msgid "Are you trying to enter your license key for %s? You can do so %shere%s."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:556
+msgid "LearnDash Mailchimp Settings"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:685
+msgid "Invalid API Key"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:681
+msgid "Valid API Key"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:705
+msgid "Assign every Student to the appropriate List Tag(s)"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:709
+msgid "This will tag every Student for the Courses they are currently enrolled in and/or have started as well as each Group they are in."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:730
+msgid "Delete %s Course List Tag(s)"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:734
+msgid "This will delete all of the List Tags for your Courses in Mailchimp and remove the association between them."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:755
+msgid "Delete %s Group List Tag(s)"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:759
+msgid "This will delete all of the List Tags for your Groups in Mailchimp and remove the association between them."
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:805
+msgid "You have %s %s not in your List"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:817, core/admin/class-learndash-mailchimp-settings.php:820
+msgid "Create Course List Tags"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:882
+msgid "Course Tags Deleted Successfully"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:933
+msgid "Group Tags Deleted Successfully"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:988
+msgid "Tags for Courses Created Successfully"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:1036
+msgid "You have %s Group(s) not in your List"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:1047, core/admin/class-learndash-mailchimp-settings.php:1050
+msgid "Create Group List Tags"
+msgstr ""
+
+#: core/admin/class-learndash-mailchimp-settings.php:1119
+msgid "Tags for Groups Created Successfully"
+msgstr ""
+
+#: core/admin/background-processing/class-learndash-mailchimp-tag-all-students.php:44
+msgctxt "%s is the Plugin Name"
+msgid "%s has finished adding all of your Students to the appropriate List Tags!"
+msgstr ""
+
+#: core/admin/background-processing/class-learndash-mailchimp-tag-all-students.php:31
+msgctxt "%s is the Plugin Name"
+msgid "%s is currently adding all of your Students to the appropriate List Tags. You can navigate away from this page safely."
+msgstr ""

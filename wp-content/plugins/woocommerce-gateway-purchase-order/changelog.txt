@@ -1,0 +1,166 @@
+** WooCommerce Gateway Purchase Order Changelog **
+
+2025-01-13 - version 1.5.1
+* Fix - Resolved PHP notice caused by loading localization code too early on WordPress 6.7.
+* Tweak - Standardize the display of the Purchase Order number on edit order and confirmation screens to match styling of other field labels.
+
+2024-11-25 - version 1.5.0
+* Fix - Ensure the PO number is updated if the transaction ID is updated in the admin order screen.
+* Dev - Bump WooCommerce "tested up to" version 9.5.
+* Dev - Bump WooCommerce minimum supported version to 9.3.
+
+2024-11-18 - version 1.4.10
+* Dev - Bump WordPress "tested up to" version 6.7.
+
+2024-10-28 - version 1.4.9
+* Dev - Bump WooCommerce "tested up to" version 9.4.
+* Dev - Bump WooCommerce minimum supported version to 9.2.
+* Dev - Bump WordPress minimum supported version to 6.5.
+
+2024-08-19 - version 1.4.8
+* Dev - Bump WooCommerce "tested up to" version 9.2.
+* Dev - Bump WooCommerce minimum supported version to 9.0.
+* Dev - Bump WordPress "tested up to" version 6.6.
+* Dev - Bump WordPress minimum supported version to 6.4.
+* Dev - Update NPM packages and node version to v20 to modernize developer experience.
+* Dev - Fix QIT E2E tests and add support for a few new test types.
+* Dev - Update E2E tests to accommodate the changes in WooCommerce 9.2.
+
+2024-03-25 - version 1.4.7
+* Dev - Bump WooCommerce "tested up to" version 8.7.
+* Dev - Bump WooCommerce minimum supported version to 8.5.
+* Dev - Bump WordPress "tested up to" version 6.5.
+* Dev - Bump WordPress minimum supported version to 6.3.
+* Fix - Inconsistent formatting on order confirmation page.
+
+2024-01-09 - version 1.4.6
+* Dev - Bump PHP minimum supported version to 7.4.
+* Dev - Bump WooCommerce "tested up to" version 8.4.
+* Dev - Bump WooCommerce minimum supported version to 8.2.
+* Dev - Declare add-on compatibility with Product Editor.
+* Dev - Declare add-on compatibility with WooPayments.
+* Dev - Declare add-on compatibility with WooCommerce Blocks.
+* Dev - Bump PHP "tested up to" version 8.3.
+* Dev - Update PHPCS and PHPCompatibility GitHub Actions.
+
+2023-11-20 - version 1.4.5
+* Dev - Added critical flows end-to-end tests.
+* Dev - Update default behavior to use a block-based cart and checkout in e2e tests.
+* Dev - Bump WooCommerce "tested up to" version 8.3.
+* Dev - Bump WooCommerce minimum supported version to 8.1.
+* Dev - Bump WordPress minimum supported version to 6.2.
+* Dev - Bump WordPress "tested up to" version 6.4.
+
+2023-09-18 - version 1.4.4
+* Dev - Bump WordPress "tested up to" version to 6.3.
+* Dev - Bump WooCommerce "tested up to" version 7.9.
+* Dev - Bump WooCommerce minimum supported version to 7.7.
+* Dev - Bump PHP minimum supported version to 7.3.
+* Dev - Added new GitHub Workflow to run Quality Insights Toolkit tests.
+* Dev - Add Playwright end-to-end tests.
+
+2023-07-04 - version 1.4.3
+* Dev - Bump WooCommerce "tested up to" version 7.8.
+* Dev - Bump WooCommerce minimum supported version from 6.8 to 7.2.
+* Dev - Bump WordPress minimum supported version from 5.8 to 6.1.
+
+2023-05-25 - version 1.4.2
+* Dev - Resolve PHPCS warnings.
+* Dev - Bump WooCommerce "tested up to" version 7.6.
+* Dev - Bump WordPress minimum supported version from 5.6 to 5.8.
+* Dev - Bump WordPress "tested up to" version 6.2.
+
+2023-03-14 - version 1.4.1
+* Dev - Bump PHP minimum supported version from 7.0 to 7.2.
+* Dev - Bump WooCommerce minimum supported version from 6.0 to 6.8.
+* Dev - Bump WooCommerce "tested up to" version 7.4.
+
+2023-02-07 - version 1.4.0
+* Add – Support for Cart and Checkout blocks.
+* Tweak – Bump WooCommerce tested up to 7.3.0.
+* Dev – Resolve linting issues.
+
+2022-12-05 - version 1.3.0
+* Add – Support for High-performance Order Storage (“HPOS”) (formerly known as Custom Order Tables, “COT”).
+* Tweak – Set minimum required version of PHP to 7.0.
+* Tweak – Bump minimum required version of WordPress from 3.9.0 to 5.6.
+* Tweak – Bump minimum required version of Woocommerce from 2.6 to 6.0.
+* Tweak – WC tested up to 7.0.
+* Add – Declare support for High-performance Order Systems (“HPOS”).
+* Update – Bump our Node support to v16.
+* Update – Bump our NPM support to v8.
+
+2022-06-13 - version 1.2.13
+* Tweak - WP tested up to 6.0
+* Tweak - WC tested up to 6.5
+
+2020-10-06 - version 1.2.12
+* Tweak - WC 4.5 compatibility.
+
+2020-08-19 - version 1.2.11
+* Tweak - WordPress 5.5 compatibility.
+
+2020-06-10 - version 1.2.10
+* Tweak - WC 4.2 compatibility.
+
+2020-04-29 - version 1.2.9
+* Tweak - WC 4.1 compatibility.
+
+2020-04-08 - version 1.2.8
+* Fix - Update transaction_id (besides po_number) for compatibility with Xero.
+* Fix - PO number field details was clickable.
+
+2020-03-04 - version 1.2.7
+* Tweak - Remove legacy code.
+* Tweak - WC 4.0 compatibility.
+
+2020-01-13 - version 1.2.6
+* Tweak - WC tested up to 3.9
+
+2019-11-05 - version 1.2.5
+* Tweak - WC tested up to 3.8
+
+2019-08-08 - version 1.2.4
+* Tweak - WC tested up to 3.7
+
+2019-04-16 - version 1.2.3
+* Tweak - WC tested up to 3.6
+
+2018-09-26 - version 1.2.2
+* Update - WC tested up to 3.5
+
+2018-05-22 - version 1.2.1
+* Update - WC tested up to 3.4
+* Update - Privacy policy notification.
+* Update - Export/erasure hooks added.
+
+2018-01-19 - version 1.2.0
+* New - Display the purchase order number on Print Invoices/Packing Lists invoices.
+
+2017-12-15 - version 1.1.7
+* Update - WC tested up to version.
+
+2017-11-24 - version 1.1.6
+* Tweak - Adjusts how the purchase order number is output on the "thank you" screen, to align with the markup used on that screen.
+
+2017-06-26 - version 1.1.5
+* Add - Adds the new Woo plugin header, for WooCommerce 3.1 compatibility.
+
+2017-04-03 - version 1.1.4
+* Fix - Update for WC 3.0 compatibility.
+
+2016-03-03 - version 1.1.3
+* Fix - Removed duplicated purchase number after the order details.
+
+2015-10-07 - version 1.1.2
+* Fix - On checkout, if a PO has been entered, it will no longer disappear on AJAX refresh
+
+2015-03-20 - version 1.1.1
+* Fix - Makes sure translation files are loaded correctly.
+* Fix - Fixes the warning notice about the deprecation of WC()->add_error().
+
+2015-01-21 - version 1.1.0
+* New - Adds the purchase order number to the transactional emails sent and to the order details screen.
+
+2014-08-14 - version 1.0.0
+* New - First release!

@@ -1,0 +1,87 @@
+<?php
+/**
+ * @license LGPL-2.1-or-later
+ *
+ * Modified by stellarwp on 04-November-2024 using {@see https://github.com/BrianHenryIE/strauss}.
+ */
+
+require_once 'LearnDash_Reports_HTMLPurifier/DefinitionCache/Decorator.php';
+
+/**
+ * Definition cache decorator template.
+ */
+class LearnDash_Reports_HTMLPurifier_DefinitionCache_Decorator_Template extends LearnDash_Reports_HTMLPurifier_DefinitionCache_Decorator
+{
+
+    /**
+     * @type string
+     */
+    public $name = 'Template'; // replace this
+
+    public function copy()
+    {
+        // replace class name with yours
+        return new LearnDash_Reports_HTMLPurifier_DefinitionCache_Decorator_Template();
+    }
+
+    // remove methods you don't need
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Definition $def
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function add($def, $config)
+    {
+        return parent::add($def, $config);
+    }
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Definition $def
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function set($def, $config)
+    {
+        return parent::set($def, $config);
+    }
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Definition $def
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function replace($def, $config)
+    {
+        return parent::replace($def, $config);
+    }
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function get($config)
+    {
+        return parent::get($config);
+    }
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function flush($config)
+    {
+        return parent::flush($config);
+    }
+
+    /**
+     * @param LearnDash_Reports_HTMLPurifier_Config $config
+     * @return mixed
+     */
+    public function cleanup($config)
+    {
+        return parent::cleanup($config);
+    }
+}
+
+// vim: et sw=4 sts=4
